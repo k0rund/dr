@@ -1,0 +1,128 @@
+#tmp {
+    flex-basis: 100%;
+    flex-grow: 1;
+    /* flex-direction: column; */
+}
+#tmpBlock {
+    flex-basis: 20%;
+    height: 1px;
+    flex-grow: 0;
+}
+#time {
+    /* background: rgba(0, 0, 255, 0.53); */
+    width: 100%;
+    flex-basis: 50px;
+    flex-grow: 0;
+}
+#schedule {
+    width: 100%;
+    flex-basis: 500px;
+    flex-grow: 1;
+    /* background: rgba(115, 112, 107, 0.56); */
+    flex-direction: column;
+}
+#timePeriod {
+    color: white;
+    font-size: 1.6em;
+    align-items: center;
+    /* padding-left: 15px; */
+    position: relative;
+}
+
+#timeTitle {
+    color: white;
+    font-size: 1.6em;
+    align-items: center;
+    padding-left: 15px;
+}
+#schedule .channel {
+    width: 100%;
+}
+.channelPrograms {
+    flex-direction: column;
+}
+.channelTitle {
+    background: rgba(113, 113, 113, 0.51);
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5em;
+    color: white;
+}
+.programsBlock {
+    width: 100%;
+    /* background: rgb(57, 57, 57); */
+}
+.programsBlock .empty{
+    justify-content:center;
+    align-items:center;
+    width: 100%;
+    color: white;
+    font-size: 1.8em;
+    background: rgb(57, 57, 57);
+}
+.descriptionBlock {
+    width: 100%;
+    background: black;
+    flex-basis: 1px;
+    flex-grow: 1;
+    flex-direction: column;
+}
+.channelTitle.selected {
+    background: #565656;
+    color: white;
+}
+.channelProgramsInfo {
+    background: rgb(65, 66, 66);
+    flex-direction: column;
+    padding-left: 10px;
+}
+.channelProgram .info {
+    height: 40px;
+    line-height: 40px;
+    font-size: 1.4em;
+    white-space: nowrap; 
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.channelProgram {
+    background: rgb(60, 60, 60);
+    font-size: 1em;
+    color: rgb(255, 255, 255);
+    align-items: center;
+    padding-left: 10px;
+    position: relative;
+}
+.br {
+    border-right: 5px solid;
+    border-color: black;
+}
+.titleProgram {
+    height: 40px;
+    color: white;
+    font-size: 1.5em;
+    align-items: center;
+    overflow: hidden;
+}
+.timeProgram {
+    height: 20px;
+    color: white;
+    align-items: center;
+}
+.subTitleProgram {
+    flex-basis: 31px;
+    flex-grow: 1;
+    color: white;
+}
+
+.subTitleProgramtext{
+    max-height: 100%;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+.timeIndicator {
+    position: absolute;
+    height: 260px;
+    width: 1px;
+    background: red;
+    z-index: 99;
+}
